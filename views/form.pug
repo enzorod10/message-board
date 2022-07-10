@@ -1,0 +1,8 @@
+h1 New Message
+form(method='POST', action='/new')
+    p
+        |Author:
+        input(name='author', value='', type='text')
+        |Message:
+        input(name='message', value='', type='text')
+        input(value='Submit', type='submit')
